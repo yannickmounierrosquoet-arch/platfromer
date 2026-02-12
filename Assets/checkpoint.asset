@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: checkpoint
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":0.0,"y":286.5864},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-556.0,"y":15.0},"guid":"b3c3663e-7eb3-4a83-b3c1-0a99fc6ac90f","$version":"A","$type":"Unity.VisualScripting.OnTriggerEnter2D","$id":"9"},{"kind":"Scene","defaultValues":{"name":{"$content":"Checkpoint","$type":"System.String"}},"position":{"x":-224.0,"y":58.0},"guid":"0b97fd21-460b-4b77-bc46-4f5ced9b513f","$version":"A","$type":"Unity.VisualScripting.SetVariable","$id":"11"},{"member":{"name":"position","parameterTypes":null,"targetType":"UnityEngine.Transform","targetTypeName":"UnityEngine.Transform","$version":"A"},"defaultValues":{"target":null},"position":{"x":-514.0,"y":206.0},"guid":"3e1856b1-37fb-4de3-8b2a-1f19dcd5f361","$version":"A","$type":"Unity.VisualScripting.GetMember","$id":"13"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"11"},"destinationKey":"assign","guid":"8ee54dbe-6080-4f67-af40-776005a71220","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"value","destinationUnit":{"$ref":"11"},"destinationKey":"input","guid":"406dabe0-e449-410c-9230-35cf0c60d938","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
